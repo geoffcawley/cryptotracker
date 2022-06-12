@@ -1,0 +1,16 @@
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\bin\Debug\netcoreapp3.1\CryptoTracker.exe
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\bin\Debug\netcoreapp3.1\CryptoTracker.deps.json
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\bin\Debug\netcoreapp3.1\CryptoTracker.runtimeconfig.json
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\bin\Debug\netcoreapp3.1\CryptoTracker.runtimeconfig.dev.json
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\bin\Debug\netcoreapp3.1\CryptoTracker.dll
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\bin\Debug\netcoreapp3.1\CryptoTracker.pdb
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\obj\Debug\netcoreapp3.1\CryptoTracker.csprojAssemblyReference.cache
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\obj\Debug\netcoreapp3.1\CryptoTracker.AssemblyInfoInputs.cache
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\obj\Debug\netcoreapp3.1\CryptoTracker.AssemblyInfo.cs
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\obj\Debug\netcoreapp3.1\CryptoTracker.csproj.CoreCompileInputs.cache
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\obj\Debug\netcoreapp3.1\CryptoTracker.dll
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\obj\Debug\netcoreapp3.1\CryptoTracker.pdb
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\obj\Debug\netcoreapp3.1\CryptoTracker.genruntimeconfig.cache
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\obj\Debug\netcoreapp3.1\CryptoTracker.csproj.CopyComplete
+C:\Users\geoff\source\repos\CryptoTracker\CryptoTracker\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll

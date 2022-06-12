@@ -1,0 +1,1 @@
+{"TotalValue":17166.375,"Holdings":[{"Name":"chainlink","Ticker":"LINK","Quantity":1000.0,"ValuePerToken":6.83,"TotalValue":6830.0},{"Name":"bitcoin","Ticker":"BTC","Quantity":0.1,"ValuePerToken":27889.74,"TotalValue":2788.974},{"Name":"ethereum","Ticker":"ETH","Quantity":5.0,"ValuePerToken":1509.48,"TotalValue":7547.4}]}
