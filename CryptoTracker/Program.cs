@@ -75,22 +75,73 @@ namespace CryptoTracker
             return JsonConvert.DeserializeObject<Portfolio>(File.ReadAllText(filename));
         }
 
+        public static void DisplayPortfolio(Portfolio portfolio)
+        {
+            float total = 0;
+            foreach (var token in portfolio.Holdings)
+            {
+                token.ValuePerToken = GetPriceFromCoinMarketCap(token.Name);
+                total += token.TotalValue;
+                Console.WriteLine(token.ToString());
+            }
+            Console.WriteLine("Total: $" + total);
+        }
+
+        public static void Buy(Portfolio portfolio, string token, float quantity)
+        {
+            var record = portfolio.Holdings.Where(r => r.Name.ToLower() == token.ToLower()).FirstOrDefault();
+            if (record == null)
+            {
+                record = portfolio.Holdings.Where(r => r.Ticker.ToLower() == token.ToLower()).FirstOrDefault();
+            }
+            record.Quantity += quantity;
+        }
+
+        public static void Sell(Portfolio portfolio, string token, float quantity)
+        {
+            var record = portfolio.Holdings.Where(r => r.Name.ToLower() == token.ToLower()).FirstOrDefault();
+            if(record == null)
+            {
+                record = portfolio.Holdings.Where(r => r.Ticker.ToLower() == token.ToLower()).FirstOrDefault();
+            }
+            record.Quantity -= quantity;
+        }
+
         public static void Main(string[] args)
         {
             try
             {
                 Portfolio portfolio = new Portfolio();
-                portfolio = ReadPortfolio("portfolio.txt");
-                float total = 0;
-                foreach (var token in portfolio.Holdings)
+                string filename = "portfolio.txt";
+                Console.WriteLine("Reading from " + Directory.GetCurrentDirectory() + "\\" + filename);
+                portfolio = ReadPortfolio(filename);
+                DisplayPortfolio(portfolio);
+
+                string s = "";
+                while(s != "quit")
                 {
-                    token.ValuePerToken = GetPriceFromCoinMarketCap(token.Name);
-                    total += token.TotalValue;
-                    Console.WriteLine(token.ToString());
+                    s = Console.ReadLine();
+                    var command = s.Split(" ");
+
+                    switch(command[0])
+                    {
+                        case "buy":
+                            Buy(portfolio, command[1], float.Parse(command[2]));
+                            break;
+                        case "sell":
+                            Sell(portfolio, command[1], float.Parse(command[2]));
+                            break;
+                        case "show":
+                            DisplayPortfolio(portfolio);
+                            break;
+                        case "save":
+                            WritePortfolio(portfolio, "portfolio.txt");
+                            Console.WriteLine("Saved to " + Directory.GetCurrentDirectory() + "\\" + filename);
+                            break;
+                        default:
+                            break;
+                    }
                 }
-                Console.WriteLine("Total: $" + total);
-                WritePortfolio(portfolio, "portfolio.txt");
-                Console.ReadKey();
             }
             catch (Exception e)
             {
