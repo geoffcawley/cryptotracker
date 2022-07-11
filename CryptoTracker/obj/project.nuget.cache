@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OykQYTuwVR/dxtOiDeXFgWeE8qtiFw85Tgwgb7uJ8llKNZf5A+TE8H0K5vuulu/6X+EVM7/MykqvgWu5IDgSnA==",
+  "dgSpecHash": "rSRbMre2EUvSDPDyFRAh1GWc9JVr1AvZQOufsfpkp368rmt3ovtkPZbZQr3kFwno0TSlGZh+OBWM2S3SGbjhwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\geoff\\Source\\Repos\\cryptotracker\\CryptoTracker\\CryptoTracker.csproj",
+  "projectFilePath": "C:\\Users\\geoff\\source\\repos\\CryptoTracker\\CryptoTracker\\CryptoTracker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\geoff\\.nuget\\packages\\htmlagilitypack\\1.11.43\\htmlagilitypack.1.11.43.nupkg.sha512",
     "C:\\Users\\geoff\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"

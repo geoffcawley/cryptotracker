@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\geoff\\Source\\Repos\\cryptotracker\\CryptoTracker\\CryptoTracker.csproj": {}
+    "C:\\Users\\geoff\\source\\repos\\CryptoTracker\\CryptoTracker\\CryptoTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\geoff\\Source\\Repos\\cryptotracker\\CryptoTracker\\CryptoTracker.csproj": {
+    "C:\\Users\\geoff\\source\\repos\\CryptoTracker\\CryptoTracker\\CryptoTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\geoff\\Source\\Repos\\cryptotracker\\CryptoTracker\\CryptoTracker.csproj",
+        "projectUniqueName": "C:\\Users\\geoff\\source\\repos\\CryptoTracker\\CryptoTracker\\CryptoTracker.csproj",
         "projectName": "CryptoTracker",
-        "projectPath": "C:\\Users\\geoff\\Source\\Repos\\cryptotracker\\CryptoTracker\\CryptoTracker.csproj",
+        "projectPath": "C:\\Users\\geoff\\source\\repos\\CryptoTracker\\CryptoTracker\\CryptoTracker.csproj",
         "packagesPath": "C:\\Users\\geoff\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\geoff\\Source\\Repos\\cryptotracker\\CryptoTracker\\obj\\",
+        "outputPath": "C:\\Users\\geoff\\source\\repos\\CryptoTracker\\CryptoTracker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\geoff\\AppData\\Roaming\\NuGet\\NuGet.Config",
